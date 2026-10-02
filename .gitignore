@@ -1,0 +1,56 @@
+bin/
+obj/
+.vs/
+*.user
+appsettings.*.local.json
+.env
+node_modules/
+__pycache__/
+*.log
+
+# ============================================
+# MediCareX - Additional entries
+# ============================================
+
+# Visual Studio
+.vs/
+*.vsidx
+*.vscode/
+.vscode/*
+!.vscode/settings.json
+
+# .NET Build
+[Bb]in/
+[Oo]bj/
+[Ll]og/
+[Ll]ogs/
+
+# User files
+*.user
+*.suo
+
+# NuGet
+*.nupkg
+**/[Pp]ackages/*
+
+# Logs
+*.log
+
+# Environment
+.env
+appsettings.Production.json
+secrets.json
+
+# OS Files
+.DS_Store
+Thumbs.db
+
+# FYP Screenshots (agar chhota rakhna hai)
+FYP-Screenshots/
+
+# Node (frontend baad me)
+node_modules/
+
+# Python (ML service baad me)
+__pycache__/
+venv/

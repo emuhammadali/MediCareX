@@ -1,0 +1,9 @@
+bin/
+obj/
+.vs/
+*.user
+appsettings.*.local.json
+.env
+node_modules/
+__pycache__/
+*.log
